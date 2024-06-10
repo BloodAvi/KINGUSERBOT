@@ -56,13 +56,12 @@ async def help_button(client, query):
     next_match = re.match(r"help_next\((.+?)\)", query.data)
     back_match = re.match(r"help_back", query.data)
     top_text = f"""
-**🥀 Welcome To Help Menu Of
-Branded Userbot » {__version__} ✨...
+**🥀 Welcome To Help Menu Of Coder Vc Bot » {__version__} ✨...
 
 Click On Below 🌺 Buttons To
 Get Userbot Commands.
 
-🌷Powered By : [Branded](https://t.me/BRANDED_PAID_CC).**
+🌷Powered By : [Coder Vc Bot](https://t.me/tcn_bots).**
 """
     
     if plug_match:
