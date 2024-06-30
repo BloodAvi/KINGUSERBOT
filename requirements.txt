@@ -6,3 +6,7 @@ py-tgcalls==2.0.1
 tgcrypto==1.2.5
 youtube-search-python
 yt-dlp==2023.12.30
+Flask==2.2.2
+gunicorn==20.1.0
+aiohttp==3.8.1
+pymongo[srv]==3.12.3
